@@ -22,4 +22,9 @@ export class ApiService {
   {
     return this.http.post("http://localhost:8001/search",dataToSend)
   }
+
+  userRegistration=(dataToSend:any)=>
+  {
+    return this.http.post("http://localhost:8001/user",dataToSend)
+  }
 }
