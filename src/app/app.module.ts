@@ -8,7 +8,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { AddProductComponent } from './add-product/add-product.component';
 import { AdminNavbarComponent } from './admin-navbar/admin-navbar.component';
-import { ViewProductComponent } from './view-product/view-product.component'
+import { ViewProductComponent } from './view-product/view-product.component';
+import { SearchProductComponent } from './search-product/search-product.component'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { ViewProductComponent } from './view-product/view-product.component'
     AdminLoginComponent,
     AddProductComponent,
     AdminNavbarComponent,
-    ViewProductComponent
+    ViewProductComponent,
+    SearchProductComponent
   ],
   imports: [
     BrowserModule,
