@@ -5,6 +5,7 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { SearchProductComponent } from './search-product/search-product.component';
 import { UserLoginComponent } from './user-login/user-login.component';
 import { UserRegistrationComponent } from './user-registration/user-registration.component';
+import { UserViewProductComponent } from './user-view-product/user-view-product.component';
 import { ViewProductComponent } from './view-product/view-product.component';
 
 const routes: Routes = [
@@ -13,7 +14,8 @@ const routes: Routes = [
   {path:"viewproduct",component:ViewProductComponent},
   {path:"searchproduct",component:SearchProductComponent},
   {path:"userregistration",component:UserRegistrationComponent},
-  {path:"userlogin",component:UserLoginComponent}
+  {path:"userlogin",component:UserLoginComponent},
+  {path:"userviewproduct",component:UserViewProductComponent}
 ];
 
 @NgModule({

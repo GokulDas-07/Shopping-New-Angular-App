@@ -18,7 +18,7 @@ export class UserLoginComponent {
     
     if(this.mail=="gokul@mail" && this.password=="gok123")
     {
-      this.route.navigate(['/#'])
+      this.route.navigate(['/userviewproduct'])
     }else
     {
       alert("Invalid User")
