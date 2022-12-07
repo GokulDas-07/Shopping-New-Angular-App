@@ -14,6 +14,7 @@ import { UserRegistrationComponent } from './user-registration/user-registration
 import { UserLoginComponent } from './user-login/user-login.component';
 import { UserViewProductComponent } from './user-view-product/user-view-product.component';
 import { UserNavbarComponent } from './user-navbar/user-navbar.component';
+import { UserSearchProductComponent } from './user-search-product/user-search-product.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { UserNavbarComponent } from './user-navbar/user-navbar.component';
     UserLoginComponent,
     UserViewProductComponent,
     UserNavbarComponent,
+    UserSearchProductComponent,
     
   ],
   imports: [
