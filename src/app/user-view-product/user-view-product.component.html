@@ -1,0 +1,25 @@
+<app-user-navbar></app-user-navbar>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3" *ngFor="let i of data">
+                        <div class="card" >
+                            <div class="card-header">
+                                Product Name: {{i.name}}
+                            </div>
+                            <ul class="list-group list-group-flush">
+                              <li class="list-group-item">Category: {{i.category}} </li>
+                              <li class="list-group-item">Description: {{i.description}} </li>
+                              <li class="list-group-item">Price: {{i.price}} </li>
+                            </ul>
+                          </div>
+    
+                    </div>
+
+
+            </div>
+            
+        </div>
+    </div>
+</div>

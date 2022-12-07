@@ -11,7 +11,10 @@ import { AdminNavbarComponent } from './admin-navbar/admin-navbar.component';
 import { ViewProductComponent } from './view-product/view-product.component';
 import { SearchProductComponent } from './search-product/search-product.component';
 import { UserRegistrationComponent } from './user-registration/user-registration.component';
-import { UserLoginComponent } from './user-login/user-login.component'
+import { UserLoginComponent } from './user-login/user-login.component';
+import { UserViewProductComponent } from './user-view-product/user-view-product.component';
+import { UserNavbarComponent } from './user-navbar/user-navbar.component';
+
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { UserLoginComponent } from './user-login/user-login.component'
     ViewProductComponent,
     SearchProductComponent,
     UserRegistrationComponent,
-    UserLoginComponent
+    UserLoginComponent,
+    UserViewProductComponent,
+    UserNavbarComponent,
+    
   ],
   imports: [
     BrowserModule,
